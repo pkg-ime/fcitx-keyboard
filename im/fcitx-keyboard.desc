@@ -1,0 +1,32 @@
+[Keyboard/OnlyHintWordWithSamePrefix]
+Type=Boolean
+DefaultValue=True
+Description=Gives out the hint word only with the same prefix as typed string
+
+[Keyboard/CommitWithExtraSpace]
+Type=Boolean
+DefaultValue=False
+Description=Commit with extra space when choose candidate word
+
+[Keyboard/HotkeyToggleWordHint]
+Type=Hotkey
+DefaultValue=CTRL_ALT_H
+Description=Toggle the word hint
+
+[Keyboard/EnableWordHint]
+Type=Boolean
+DefaultValue=False
+Description=Enable word hint if available
+
+[Keyboard/UseEnterToCommit]
+Type=Boolean
+DefaultValue=True
+Description=Use enter to commit the existing string
+
+[DescriptionFile]
+LocaleDomain=fcitx-keyboard
+
+[Keyboard/HotkeyAddToUserDict]
+Type=Hotkey
+DefaultValue=CTRL_ALT_N
+Description=Add current input buffer to user dictionary

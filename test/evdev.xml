@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xkbConfigRegistry SYSTEM "xkb.dtd">
+<xkbConfigRegistry version="1.1">
+  <modelList>
+    <model>
+      <configItem>
+        <name>pc101</name>
+        <description>Generic 101-key PC</description>
+        <vendor>Generic</vendor>
+      </configItem>
+    </model>
+  </modelList>
+  <layoutList>
+    <layout>
+      <configItem>
+        <name>ru</name>
+        <shortDescription>ru</shortDescription>
+        <description>Russian</description>
+        <languageList>
+          <iso639Id>rus</iso639Id>
+        </languageList>
+      </configItem>
+      <variantList>
+        <variant>
+          <configItem>
+            <name>phonetic</name>
+            <description>Russian (phonetic)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>phonetic_winkeys</name>
+            <description>Russian (phonetic WinKeys)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>typewriter</name>
+            <description>Russian (typewriter)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>legacy</name>
+            <description>Russian (legacy)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>typewriter-legacy</name>
+            <description>Russian (typewriter, legacy)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>tt</name>
+            <description>Tatar</description>
+            <languageList>
+              <iso639Id>tat</iso639Id>
+            </languageList>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>os_legacy</name>
+            <description>Ossetian (legacy)</description>
+            <languageList>
+              <iso639Id>oss</iso639Id>
+            </languageList>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>os_winkeys</name>
+            <description>Ossetian (WinKeys)</description>
+            <languageList>
+              <iso639Id>oss</iso639Id>
+            </languageList>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>cv</name>
+            <description>Chuvash</description>
+            <languageList>
+              <iso639Id>chv</iso639Id>
+            </languageList>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>cv_latin</name>
+            <description>Chuvash (Latin)</description>
+            <languageList>
+              <iso639Id>chv</iso639Id>
+            </languageList>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>udm</name>
+            <description>Udmurt</description>
+            <languageList>
+              <iso639Id>udm</iso639Id>
+            </languageList>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>kom</name>
+            <description>Komi</description>
+            <languageList>
+              <iso639Id>kom</iso639Id>
+            </languageList>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>sah</name>
+            <description>Yakut</description>
+            <languageList>
+              <iso639Id>sah</iso639Id>
+            </languageList>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>xal</name>
+            <description>Kalmyk</description>
+            <languageList>
+              <iso639Id>xal</iso639Id>
+            </languageList>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>dos</name>
+            <description>Russian (DOS)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>srp</name>
+            <description>Serbian (Russia)</description>
+            <languageList><iso639Id>rus</iso639Id>
+                          <iso639Id>srp</iso639Id></languageList>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>bak</name>
+            <description>Bashkirian</description>
+            <languageList>
+              <iso639Id>bak</iso639Id>
+            </languageList>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>chm</name>
+            <description>Mari</description>
+            <languageList>
+              <iso639Id>chm</iso639Id>
+            </languageList>
+          </configItem>
+        </variant>
+      </variantList>
+    </layout>
+    <layout>
+      <configItem>
+        <name>us</name>
+        <shortDescription>en</shortDescription>
+        <description>English (US)</description>
+        <languageList>
+          <iso639Id>eng</iso639Id>
+        </languageList>
+      </configItem>
+      <variantList>
+        <variant>
+          <configItem>
+            <name>chr</name>
+            <shortDescription>chr</shortDescription>
+            <description>Cherokee</description>
+            <languageList>
+              <iso639Id>chr</iso639Id>
+            </languageList>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>euro</name>
+            <description>English (US, with euro on 5)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>intl</name>
+            <description>English (US, international with dead keys)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>alt-intl</name>
+            <description>English (US, alternative international)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>colemak</name>
+            <description>English (Colemak)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>dvorak</name>
+            <description>English (Dvorak)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>dvorak-intl</name>
+            <description>English (Dvorak international with dead keys)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>dvorak-alt-intl</name>
+            <description>English (Dvorak alternative international no dead keys)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>dvorak-l</name>
+            <description>English (left handed Dvorak)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>dvorak-r</name>
+            <description>English (right handed Dvorak)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>dvorak-classic</name>
+            <description>English (classic Dvorak)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>dvp</name>
+            <description>English (programmer Dvorak)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>rus</name>
+            <shortDescription>ru</shortDescription>
+            <description>Russian (US, phonetic)</description>
+            <languageList>
+              <iso639Id>rus</iso639Id>
+            </languageList>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>mac</name>
+            <description>English (Macintosh)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>altgr-intl</name>
+            <description>English (international AltGr dead keys)</description>
+            <languageList><iso639Id>eng</iso639Id>
+                          <iso639Id>fra</iso639Id>
+                          <iso639Id>ger</iso639Id></languageList>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>olpc2</name>
+            <description>English (layout toggle on multiply/divide key)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>hbs</name>
+            <description>Serbo-Croatian (US)</description>
+            <languageList><iso639Id>eng</iso639Id>
+                          <iso639Id>bos</iso639Id>
+                          <iso639Id>hbs</iso639Id>
+                          <iso639Id>hrv</iso639Id>
+                          <iso639Id>srp</iso639Id> </languageList>
+          </configItem>
+        </variant>
+      </variantList>
+    </layout>
+    <layout>
+      <configItem>
+        <name>ad</name>
+        <shortDescription>ca</shortDescription>
+        <description>Catalan</description>
+        <languageList>
+          <iso639Id>cat</iso639Id>
+        </languageList>
+      </configItem>
+      <variantList/>
+    </layout>
+  </layoutList>
+  <optionList>
+    <group allowMultipleSelection="true">
+      
+      <configItem>
+        <name>grp</name>
+        <description>Key(s) to change layout</description>
+      </configItem>
+      <option>
+        <configItem>
+          <name>grp:switch</name>
+          <description>Right Alt (while pressed)</description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
+          <name>grp:lswitch</name>
+          <description>Left Alt (while pressed)</description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
+          <name>grp:lwin_switch</name>
+          <description>Left Win (while pressed)</description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
+          <name>grp:rwin_switch</name>
+          <description>Right Win (while pressed)</description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
+          <name>grp:win_switch</name>
+          <description>Any Win key (while pressed)</description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
+          <name>grp:caps_switch</name>
+          <description>Caps Lock (while pressed), Alt+Caps Lock does the original capslock action</description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
+          <name>grp:rctrl_switch</name>
+          <description>Right Ctrl (while pressed)</description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
+          <name>grp:toggle</name>
+          <description>Right Alt</description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
+          <name>grp:lalt_toggle</name>
+          <description>Left Alt</description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
+          <name>grp:caps_toggle</name>
+          <description>Caps Lock</description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
+          <name>grp:shift_caps_toggle</name>
+          <description>Shift+Caps Lock</description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
+          <name>grp:shift_caps_switch</name>
+          <description>Caps Lock (to first layout), Shift+Caps Lock (to last layout)</description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
+          <name>grp:win_menu_switch</name>
+          <description>Left Win (to first layout), Right Win/Menu (to last layout)</description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
+          <name>grp:lctrl_rctrl_switch</name>
+          <description>Left Ctrl (to first layout), Right Ctrl (to last layout)</description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
+          <name>grp:alt_caps_toggle</name>
+          <description>Alt+Caps Lock</description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
+          <name>grp:shifts_toggle</name>
+          <description>Both Shift keys together</description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
+          <name>grp:alts_toggle</name>
+          <description>Both Alt keys together</description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
+          <name>grp:ctrls_toggle</name>
+          <description>Both Ctrl keys together</description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
+          <name>grp:ctrl_shift_toggle</name>
+          <description>Ctrl+Shift</description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
+          <name>grp:lctrl_lshift_toggle</name>
+          <description>Left Ctrl+Left Shift</description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
+          <name>grp:rctrl_rshift_toggle</name>
+          <description>Right Ctrl+Right Shift</description>
+        </configItem>
+      </option>      
+      <option>
+        <configItem>
+          <name>grp:ctrl_alt_toggle</name>
+          <description>Alt+Ctrl</description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
+          <name>grp:alt_shift_toggle</name>
+          <description>Alt+Shift</description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
+          <name>grp:alt_space_toggle</name>
+          <description>Alt+Space</description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
+          <name>grp:menu_toggle</name>
+          <description>Menu</description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
+          <name>grp:lwin_toggle</name>
+          <description>Left Win</description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
+          <name>grp:rwin_toggle</name>
+          <description>Right Win</description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
+          <name>grp:lshift_toggle</name>
+          <description>Left Shift</description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
+          <name>grp:rshift_toggle</name>
+          <description>Right Shift</description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
+          <name>grp:lctrl_toggle</name>
+          <description>Left Ctrl</description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
+          <name>grp:rctrl_toggle</name>
+          <description>Right Ctrl</description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
+          <name>grp:sclk_toggle</name>
+          <description>Scroll Lock</description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
+          <name>grp:lctrl_lwin_rctrl_menu</name>
+          <description>LeftCtrl+LeftWin (to first layout), RightCtrl+Menu (to second layout)</description>
+        </configItem>
+      </option>
+    </group>
+    <group allowMultipleSelection="true">
+      
+      <configItem>
+        <name>lv3</name>
+        <description>Key to choose 3rd level</description>
+      </configItem>
+      <option>
+        <configItem>
+          <name>lv3:switch</name>
+          <description>Right Ctrl</description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
+          <name>lv3:menu_switch</name>
+          <description>Menu</description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
+          <name>lv3:win_switch</name>
+          <description>Any Win key</description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
+          <name>lv3:lwin_switch</name>
+          <description>Left Win</description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
+          <name>lv3:rwin_switch</name>
+          <description>Right Win</description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
+          <name>lv3:alt_switch</name>
+          <description>Any Alt key</description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
+          <name>lv3:lalt_switch</name>
+          <description>Left Alt</description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
+          <name>lv3:ralt_switch</name>
+          <description>Right Alt</description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
+          <name>lv3:ralt_switch_multikey</name>
+          <description>Right Alt, Shift+Right Alt key is Multi_Key</description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
+          <name>lv3:ralt_alt</name>
+          <description>Right Alt key never chooses 3rd level</description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
+          <name>lv3:enter_switch</name>
+          <description>Enter on keypad</description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
+          <name>lv3:caps_switch</name>
+          <description>Caps Lock</description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
+          <name>lv3:bksl_switch</name>
+          <description>Backslash</description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
+          <name>lv3:lsgt_switch</name>
+	  <description>&lt;Less/Greater&gt;</description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
+          <name>lv3:caps_switch_latch</name>
+          <description>Caps Lock (chooses 3rd level, latches when pressed together with another 3rd-level-chooser)</description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
+          <name>lv3:bksl_switch_latch</name>
+          <description>Backslash (chooses 3rd level, latches when pressed together with another 3rd-level-chooser)</description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
+          <name>lv3:lsgt_switch_latch</name>
+	  <description>&lt;Less/Greater&gt; (chooses 3rd level, latches when pressed together with another 3rd-level-chooser)</description>
+        </configItem>
+      </option>
+    </group>
+  </optionList>
+</xkbConfigRegistry>

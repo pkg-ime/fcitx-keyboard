@@ -1,0 +1,12 @@
+#define LOCALEDIR "@LOCALEDIR@"
+#define ISOCODES_ISO639_XML "@ISOCODES_ISO639_XML@"
+#define ISOCODES_ISO3166_XML "@ISOCODES_ISO3166_XML@"
+#cmakedefine XLIBDIR "${XLIBDIR}"
+#cmakedefine XKB_RULES_XML_FILE "${XKB_RULES_XML_FILE}"
+#cmakedefine LIBICONV_SECOND_ARGUMENT_IS_CONST
+
+#ifdef LIBICONV_SECOND_ARGUMENT_IS_CONST
+typedef const char* IconvStr;
+#else
+typedef char* IconvStr;
+#endif

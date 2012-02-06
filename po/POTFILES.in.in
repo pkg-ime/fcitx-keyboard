@@ -1,0 +1,18 @@
+# List of source files which contain translatable strings.
+[encoding: UTF-8]
+./po/desc.po
+./po/conf.po
+@REL_SOURCE_ROOT@/im/isocodes.h
+@REL_SOURCE_ROOT@/im/fcitx-compose-data.h
+@REL_SOURCE_ROOT@/im/isocodes.c
+@REL_SOURCE_ROOT@/im/keyboard.c
+@REL_SOURCE_ROOT@/im/keyboard.h
+@REL_SOURCE_ROOT@/im/keyboardconfig.c
+@REL_SOURCE_ROOT@/xkb/rules.h
+@REL_SOURCE_ROOT@/xkb/xkb.h
+@REL_SOURCE_ROOT@/xkb/xkbconfig.c
+@REL_SOURCE_ROOT@/xkb/common.h
+@REL_SOURCE_ROOT@/xkb/xkb.c
+@REL_SOURCE_ROOT@/xkb/rules.c
+@REL_SOURCE_ROOT@/im/fcitx-keyboard.conf.in
+@REL_SOURCE_ROOT@/xkb/fcitx-xkb.conf.in
