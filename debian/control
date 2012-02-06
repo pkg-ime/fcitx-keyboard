@@ -1,0 +1,27 @@
+Source: fcitx-keyboard
+Section: utils
+Priority: optional
+Maintainer: IME Packaging Team <pkg-ime-devel@lists.debian.org>
+Uploaders: Aron Xu <aron@debian.org>, YunQiang Su <wzssyqa@gmail.com>
+DM-Upload-Allowed: yes
+Build-Depends: debhelper (>= 8.0.0), cmake, fcitx-libs-dev (>=1:4.2.0),
+  libxml2-dev, libx11-dev, libxkbfile-dev, libenchant-dev, iso-codes, 
+  intltool, libicu-dev
+Standards-Version: 3.9.2
+Homepage: http://fcitx.googlecode.com
+Vcs-Git: git://git.debian.org/pkg-ime/fcitx-keyboard.git
+Vcs-Browser: http://git.debian.org/?p=pkg-ime/fcitx-keyboard.git
+
+Package: fcitx-keyboard
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: X Keyboard Integration wtih Fcitx
+ This package will make Fcitx supports spell checker based word hint, 
+ and automatically keyboard layout switch.
+ .
+ You can use keyboard layout as a single input method, 
+ and use corresponding language spell checker.
+ .
+ Input method can gives a hint about what keyboard layout it requires,
+ for instance, pinyin will request us layout and fcitx-keyboard can 
+ then switch to us layout once pinyin is used.
