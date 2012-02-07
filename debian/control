@@ -8,7 +8,7 @@ Build-Depends: debhelper (>= 8.0.0), cmake, fcitx-libs-dev (>=1:4.2.0),
   libxml2-dev, libx11-dev, libxkbfile-dev, libenchant-dev, iso-codes, 
   intltool, libicu-dev
 Standards-Version: 3.9.2
-Homepage: http://fcitx.googlecode.com
+Homepage: http://code.google.com/p/fcitx
 Vcs-Git: git://git.debian.org/pkg-ime/fcitx-keyboard.git
 Vcs-Browser: http://git.debian.org/?p=pkg-ime/fcitx-keyboard.git
 
