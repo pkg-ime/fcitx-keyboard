@@ -23,5 +23,5 @@ Description: X Keyboard Integration wtih Fcitx
  and use corresponding language spell checker.
  .
  Input method can gives a hint about what keyboard layout it requires,
- for instance, pinyin will request us layout and fcitx-keyboard can 
- then switch to us layout once pinyin is used.
+ for instance, pinyin will request US layout and fcitx-keyboard can 
+ then switch to US layout once pinyin is used.
